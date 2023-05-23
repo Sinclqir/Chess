@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+Chess Game - roject for Ynov Sophia Antipolis 
+Realised in TypeScript & React.
+Welcome to our Chess Game project, a chess web application developed in TypeScript and React. This game allows you to play chess to enjoy a game with a friend in a two-player local mode.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Full chess game: All standard chess rules are respected, including special moves like castling, en passant capture and pawn promotion.
+Modern user interface: Thanks to React, the game offers a smooth and responsive user interface.
+Artificial Intelligence ( not available ): The game includes an AI opponent based on the Minimax algorithm with an advanced rating function. You can adjust the difficulty level by changing the depth of the AI search tree.
+TypeScript: The project is written entirely in TypeScript, which ensures safer and more maintainable code.
+How to get started
+To install and run the chess game, follow the steps below:
 
-## Available Scripts
+Prerequisites
+You must have Node.js and npm installed on your computer. If not, you can download and install them from the official Node.js website.
+Installation
+Clone the repository in a local directory on your computer using the following Git command :
+bash
 
-In the project directory, you can run:
+git clone git@github.com:Sinclqir/Chess.git
+Go to the project directory :
+bash
 
-### `yarn start`
+cd chess-game
+Install the project dependencies :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+npm install
+Launching the game
+After installing the dependencies, you can start the development server and launch the game with the following command:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+npm start
+The game should now be available at http://localhost:3000 in your web browser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Contributors
+This project was developed by Sinclair BALIVET and Guilhem MAGAUD
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+How to contribute
+We welcome contributions from everyone. If you would like to contribute to this project, please first discuss the change you wish to make via an issue in this GitHub repository.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Thank you for your interest in our chess project. We hope you enjoy it as much as we enjoyed developing it. Enjoy the game!
