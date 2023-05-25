@@ -2,6 +2,8 @@ Chess Game - roject for Ynov Sophia Antipolis
 Realised in TypeScript & React.
 Welcome to our Chess Game project, a chess web application developed in TypeScript and React. This game allows you to play chess to enjoy a game with a friend in a two-player local mode.
 
+Deployed in : https://chess-eight-beta.vercel.app/
+
 Features
 Full chess game: All standard chess rules are respected, including special moves like castling, en passant capture and pawn promotion.
 Modern user interface: Thanks to React, the game offers a smooth and responsive user interface.
