@@ -1,4 +1,4 @@
-Chess Game - roject for Ynov Sophia Antipolis 
+Chess Game - Project for Ynov Sophia Antipolis 
 Realised in TypeScript & React.
 Welcome to our Chess Game project, a chess web application developed in TypeScript and React. This game allows you to play chess to enjoy a game with a friend in a two-player local mode.
 
